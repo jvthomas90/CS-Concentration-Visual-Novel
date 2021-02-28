@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200;1,400;1,600&display=swap');
+
+.customsection {
+	background-image: url(./images/placeholder.png);
+	background-size: 1000px 900px;
+	border: 2px black solid;
+	border-radius: 8px;
+	width: 1000px;
+	height: 900px;
+	position: relative;
+}
+
+div.backgroundtext {
+	background-image: url(./images//ConcentrationgameVNbottom.png);
+	height: 224.766751484px;
+	background-size: 1000px;
+	position: absolute;
+	bottom: 0;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.optionsbox {
+	background-image: url(./images/options.png);
+	background-size: 494.734251969px;
+	width: 494.734251969px;
+	height: 57px;
+	position: absolute;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding-left: 35px;
+}
+
+h3,
+p,
+h2,
+h1,
+h5,
+header {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.buttontext {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.name {
+	font-weight: 600;
+}
+
+.line {
+	border: 1px black solid;
+	width: 200px;
+	height: 1px;
+}
+
+.dialogue {
+	font-weight: 200;
+}
