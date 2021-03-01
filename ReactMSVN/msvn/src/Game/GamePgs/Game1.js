@@ -20,7 +20,7 @@ function Game1() {
 					</a>
 					<a href="#">
 						<div class="optionsbox buttontext" style={{ left: 550, top: 570 }}>
-							<header>Lorem ipsum dolor sit amet.</header>
+							<header>asf</header>
 						</div>
 					</a>
 
