@@ -2,11 +2,14 @@ import React from 'react';
 import '../../App.css';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Game1_1 from Game1_1;
 
 function Game1() {
 	return (
+		<Link to='/game/1_1'>
 		<div>
 			<section class="d-flex justify-content-center align-items-center m-5">
+<<<<<<< HEAD
 				<div class="column customsection">
 					<Link to={`/game/9_1`}>
 						<div class="optionsbox buttontext" style={{ left: 550, top: 400 }}>
@@ -35,8 +38,12 @@ function Game1() {
 						</div>
 					</div>
 				</div>
+=======
+				<header>You are in a rush to class</header>
+>>>>>>> alt-main
 			</section>
 		</div>
+		</Link>
 	);
 }
 
