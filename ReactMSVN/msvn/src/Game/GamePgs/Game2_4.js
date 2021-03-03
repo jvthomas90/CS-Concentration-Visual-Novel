@@ -2,18 +2,18 @@ import React from 'react';
 import '../../App.css';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Game1_1 from Game1_1;
+import Game2_5 from Game2_5;
 
-function Game1() {
+function Game2_4() {
 	return (
-		<Link to='/game/1_1'>
-		<div>
+		<Link to={'/game/2_5'}>
 			<section class="d-flex justify-content-center align-items-center m-5">
-				<header>You are in a rush to class</header>
+				<header>
+                    *Walking to class*
+				</header>
 			</section>
-		</div>
-		</Link>
+        </Link>
 	);
 }
 
-export default Game1;
+export default Game2_4;
