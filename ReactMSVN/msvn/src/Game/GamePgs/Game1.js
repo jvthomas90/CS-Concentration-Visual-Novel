@@ -8,7 +8,7 @@ function Game1() {
 		<div>
 			<section class="d-flex justify-content-center align-items-center m-5">
 				<div class="column customsection">
-					<Link to={`/game/2`}>
+					<Link to={`/game/9_1`}>
 						<div class="optionsbox buttontext" style={{ left: 550, top: 400 }}>
 							<header>Lorem ipsum dolor sit amet.</header>
 						</div>
