@@ -130,7 +130,6 @@ function Game() {
 			<Route path="/game/3_3" component={Game3_3} />
 			<Route path="/game/3_4" component={Game3_4} />
 			<Route path="/game/4" component={Game4} />
-<<<<<<< HEAD
 			{/* Page 9 */}
 			<Route path="/game/9_1" component={Game9_1}/>
 			<Route path="/game/9_2" component={Game9_2}/>
@@ -208,7 +207,6 @@ function Game() {
 			<Route path="/game/14_17" component={Game14_17}/> 
 			<Route path="/game/14_18" component={Game14_18}/> 
 			<Route path="/game/14_19" component={Game14_19}/> 
-=======
 			<Route path="/game/5" component={Game5} />
 			<Route path="/game/5_1" component={Game5_1} />
 			<Route path="/game/5_2" component={Game5_2} />
@@ -222,7 +220,6 @@ function Game() {
 			<Route path="/game/8_2" component={Game8_2} />
 			<Route path="/game/8_3" component={Game8_3} />
 			<Route path="/game/8_4" component={Game8_4} />
->>>>>>> alt-main
 		</Router>
 	);
 }
