@@ -4,31 +4,31 @@ import { Link } from 'react-router-dom';
 //need to import screen Game13 (the ending screen for link on buttons)
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Game12() {
+function Game12_8() {
 	return (
 		<div>
 			<section class="d-flex justify-content-center align-items-center m-5">
 				<div class="column customsection">
-					<a href="#" /*name='user_concentration' value='FEW'*/>
-						<div class="optionsbox buttontext" style="left: 550; top: 400">
+                	<Link to={`/game/2`}>
+						<div class="optionsbox buttontext" style={{left: 550, top: 400}}>
 							<header>Visualization of Data, Artificial Intelligence, Organization.</header>
 						</div>
-					</a>
-					<a href="#">
-						<div class="optionsbox buttontext" style="left: 550; top: 485">
+					</Link>
+                	<Link to={`/game/2`}>
+						<div class="optionsbox buttontext" style={{left: 550, top: 485}}>
 							<header>Background functions, Connecting databases, Fine-tuning.</header>
 						</div>
-					</a>
-					<a href="#">
-						<div class="optionsbox buttontext" style="left: 550; top: 570">
+					</Link>
+                	<Link to={`/game/2`}>
+						<div class="optionsbox buttontext" style={{left: 550, top: 570}}>
 							<header>Developing user experience/interface, Design, Artistic, Creative.</header>
 						</div>
-					</a>
-					<a href="#">
-						<div class="optionsbox buttontext" style="left: 550; top: 570">
+					</Link>
+                	<Link to={`/game/2`}>
+						<div class="optionsbox buttontext" style={{left: 550, top: 570}}>
 							<header>Mobile games, Smartphones, Accessibility.</header>
 						</div>
-					</a>
+					</Link>
 
 					<div class="backgroundtext align-items-center col-md">
 						<h3 class="name">Dan</h3>
@@ -46,4 +46,4 @@ function Game12() {
 	);
 }
 
-export default Game12;
+export default Game12_8;
