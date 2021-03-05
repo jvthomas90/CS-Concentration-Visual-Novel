@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Game5_2 from Game5_2;
+// import Game5_2 from Game5_2;
 
 function Game5_1() {
 	return (
@@ -14,7 +14,7 @@ function Game5_1() {
 						<div class="line mb-5"></div>
 						<div class="container d-flex justify-content-center px-5">
 							<p class="mb-5 dialogue">
-                                Hey {{users_name}}, what’s goin on?
+                                Hey User, what’s goin on?
 							</p>
 						</div>
 					</div>

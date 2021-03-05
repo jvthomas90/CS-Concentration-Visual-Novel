@@ -2,10 +2,10 @@ import React from 'react';
 import '../../App.css';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Game8_1 from Game8_1;
-import Game9_1 from Game9_1;
-import Game10_1 from Game10_1;
-import Game11_1 from Game11_1;
+// import Game8_1 from Game8_1;
+// import Game9_1 from Game9_1;
+// import Game10_1 from Game10_1;
+// import Game11_1 from Game11_1;
 
 function Game6_1() {
 	return (

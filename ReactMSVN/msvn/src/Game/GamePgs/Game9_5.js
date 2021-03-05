@@ -10,7 +10,7 @@ function Game9_5() {
                 <section class="d-flex justify-content-center align-items-center m-5">
                     <div class="column customsection">
                         <div class="backgroundtext align-items-center col-md">
-                            <h3 class="name">{Self}</h3>
+                            <h3 class="name">User</h3>
                             <div class="line mb-5"></div>
                             <div class="container d-flex justify-content-center px-5">
                                 <p class="mb-5 dialogue">

@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Game5_4 from Game5_4;
+// import Game5_4 from Game5_4;
 
 function Game5_3() {
 	return (
