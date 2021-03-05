@@ -14,7 +14,7 @@ function Game14_16() {
                             <div class="line mb-5"></div>
                             <div class="container d-flex justify-content-center px-5">
                                 <p class="mb-5 dialogue">
-                                    I’m a senior manager for {/*{whatever related to chosen concentration}*/} at Google now! The work we do here is motivating and innovative. I love it here!
+                                    I’m a senior manager at Google now! The work we do here is motivating and innovative. I love it here!
                                 </p>
                             </div>
                         </div>

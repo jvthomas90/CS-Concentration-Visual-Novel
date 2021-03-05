@@ -14,7 +14,7 @@ function Game8_5() {
 						<div class="line mb-5"></div>
 						<div class="container d-flex justify-content-center px-5">
 							<p class="mb-5 dialogue">
-                                See ya! 
+								See ya!
 							</p>
 						</div>
 					</div>

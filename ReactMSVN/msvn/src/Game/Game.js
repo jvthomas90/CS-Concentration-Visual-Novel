@@ -27,11 +27,13 @@ import Game5_4 from './GamePgs/Game5_4';
 import Game5_5 from './GamePgs/Game5_5';
 import Game6 from './GamePgs/Game6';
 import Game6_1 from './GamePgs/Game6_1';
+import Game7 from './GamePgs/Game7';
 import Game8 from './GamePgs/Game8';
 import Game8_1 from './GamePgs/Game8_1';
 import Game8_2 from './GamePgs/Game8_2';
 import Game8_3 from './GamePgs/Game8_3';
 import Game8_4 from './GamePgs/Game8_4';
+import Game8_5 from './GamePgs/Game8_5';
 
 import Game9_1 from './GamePgs/Game9_1';
 import Game9_2 from './GamePgs/Game9_2';
@@ -90,10 +92,12 @@ import Game13_MOB_2 from './GamePgs/Game13_MOB_2';
 import Game13_MOB_3 from './GamePgs/Game13_MOB_3';
 import Game13_MOB_4 from './GamePgs/Game13_MOB_4';
 
-import Game14_1 from './GamePgs/Game14_1';
+import Game14_1_BEW from './GamePgs/Game14_1_BEW';
+import Game14_1_DS from './GamePgs/Game14_1_DS';
+import Game14_1_MOB from './GamePgs/Game14_1_MOB';
+import Game14_1_FEW from './GamePgs/Game14_1_FEW';
 import Game14_2 from './GamePgs/Game14_2';
 import Game14_3 from './GamePgs/Game14_3';
-import Game14_4 from './GamePgs/Game14_4';
 import Game14_5 from './GamePgs/Game14_5';
 import Game14_6 from './GamePgs/Game14_6';
 import Game14_7 from './GamePgs/Game14_7';
@@ -109,6 +113,7 @@ import Game14_16 from './GamePgs/Game14_16';
 import Game14_17 from './GamePgs/Game14_17';
 import Game14_18 from './GamePgs/Game14_18';
 import Game14_19 from './GamePgs/Game14_19';
+import Game15 from './GamePgs/Game15';
 
 function Game() {
 	return (
@@ -138,11 +143,13 @@ function Game() {
 			<Route path="/game/5_5" component={Game5_5} />
 			<Route path="/game/6" component={Game6} />
 			<Route path="/game/6_1" component={Game6_1} />
+			<Route path="/game/7" component={Game7}/>
 			<Route path="/game/8" component={Game8} />
 			<Route path="/game/8_1" component={Game8_1} />
 			<Route path="/game/8_2" component={Game8_2} />
 			<Route path="/game/8_3" component={Game8_3} />
 			<Route path="/game/8_4" component={Game8_4} />
+			<Route path="/game/8_5" component={Game8_5} />
 			
 			{/* Page 9 */}
 			<Route path="/game/9_1" component={Game9_1}/>
@@ -202,10 +209,13 @@ function Game() {
 			<Route path="/game/13_MOB_3" component={Game13_MOB_3}/>
 			<Route path="/game/13_MOB_4" component={Game13_MOB_4}/>
 			{/* End of game */}
-			<Route path="/game/14_1" component={Game14_1}/> 
+			<Route path="/game/14_1_BEW" component={Game14_1_BEW}/> 
+			<Route path="/game/14_1_DS" component={Game14_1_DS}/> 
+			<Route path="/game/14_1_FEW" component={Game14_1_FEW}/> 
+			<Route path="/game/14_1_MOB" component={Game14_1_MOB}/> 
+
 			<Route path="/game/14_2" component={Game14_2}/> 
 			<Route path="/game/14_3" component={Game14_3}/> 
-			<Route path="/game/14_4" component={Game14_4}/> 
 			<Route path="/game/14_5" component={Game14_5}/> 
 			<Route path="/game/14_6" component={Game14_6}/> 
 			<Route path="/game/14_7" component={Game14_7}/> 
@@ -221,6 +231,7 @@ function Game() {
 			<Route path="/game/14_17" component={Game14_17}/> 
 			<Route path="/game/14_18" component={Game14_18}/> 
 			<Route path="/game/14_19" component={Game14_19}/> 
+			<Route path="/game/15" component={Game15}/> 
 		</Router>
 	);
 }
