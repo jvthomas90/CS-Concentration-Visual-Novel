@@ -8,7 +8,7 @@ function Game14_5() {
 		<Link to={'/game/14_6'}>
             <div>
                 <section class="d-flex justify-content-center align-items-center m-5">
-                    <div class="column customsection">
+                    <div class="column customsection2">
                         <div class="backgroundtext align-items-center col-md">
                             <h3 class="name"></h3>
                             <div class="line mb-5"></div>
