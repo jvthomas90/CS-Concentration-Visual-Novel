@@ -29,17 +29,6 @@ function Game4() {
                             </div>
                         </a>
                     </Link>
-					{/* <Link to={`/game/7`}>
-                        <a href="#">
-                            <div
-                                class="optionsbox buttontext"
-                                style={{ left: 550, top: 570 }}
-                            >
-                                <header>On your OWN :(</header>
-                            </div>
-                        </a>
-                    </Link> */}
-
 					<div class="backgroundtext align-items-center col-md">
 						<h3 class="name">Dan</h3>
 						<div class="line mb-5"></div>

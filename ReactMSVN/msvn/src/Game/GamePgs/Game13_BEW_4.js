@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Game13_BEW_4() {
 	return (
-		<Link to={'/game/4'}>
+		<Link to={'/game/14_1_BEW'}>
             <div>
                 <section class="d-flex justify-content-center align-items-center m-5">
                     <div class="column customsection">

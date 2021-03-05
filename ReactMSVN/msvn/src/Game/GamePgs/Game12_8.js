@@ -9,22 +9,22 @@ function Game12_8() {
 		<div>
 			<section class="d-flex justify-content-center align-items-center m-5">
 				<div class="column customsection">
-                	<Link to={`/game/2`}>
-						<div class="optionsbox buttontext" style={{left: 550, top: 400}}>
+                	<Link to={`/game/13_DS_1`}>
+						<div class="optionsbox buttontext" style={{left: 550, top: 350}}>
 							<header>Visualization of Data, Artificial Intelligence, Organization.</header>
 						</div>
 					</Link>
-                	<Link to={`/game/2`}>
-						<div class="optionsbox buttontext" style={{left: 550, top: 485}}>
+                	<Link to={`/game/13_BEW_1`}>
+						<div class="optionsbox buttontext" style={{left: 550, top: 425}}>
 							<header>Background functions, Connecting databases, Fine-tuning.</header>
 						</div>
 					</Link>
-                	<Link to={`/game/2`}>
-						<div class="optionsbox buttontext" style={{left: 550, top: 570}}>
+                	<Link to={`/game/13_FEW_1`}>
+						<div class="optionsbox buttontext" style={{left: 550, top: 500}}>
 							<header>Developing user experience/interface, Design, Artistic, Creative.</header>
 						</div>
 					</Link>
-                	<Link to={`/game/2`}>
+                	<Link to={`/game/13_MOB_1`}>
 						<div class="optionsbox buttontext" style={{left: 550, top: 570}}>
 							<header>Mobile games, Smartphones, Accessibility.</header>
 						</div>

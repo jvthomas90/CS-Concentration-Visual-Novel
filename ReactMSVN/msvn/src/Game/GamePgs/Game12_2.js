@@ -3,9 +3,9 @@ import '../../App.css';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Game12_1() {
+function Game12_2() {
 	return (
-		<Link to={'/game/12_2'}>
+		<Link to={'/game/12_3'}>
             <div>
                 <section class="d-flex justify-content-center align-items-center m-5">
                     <div class="column customsection">
@@ -25,4 +25,4 @@ function Game12_1() {
 	);
 }
 
-export default Game12_1;
+export default Game12_2;
